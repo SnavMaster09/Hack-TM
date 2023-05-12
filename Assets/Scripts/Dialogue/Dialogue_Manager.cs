@@ -9,6 +9,11 @@ public class Dialogue_Manager : MonoBehaviour
 
     private  Queue<string> sentecens;
 
+    public bool special = false;
+
+    public static bool activeDialogue = false;
+
+
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI nameText;
 
@@ -27,6 +32,7 @@ public class Dialogue_Manager : MonoBehaviour
         nameText.text = dialogue.name;
 
         animator.SetBool("isOpen", true);
+        activeDialogue = true;
 
         sentecens.Clear();
         foreach(string sentence in dialogue.sentences)
@@ -53,6 +59,8 @@ public class Dialogue_Manager : MonoBehaviour
     void EndDialogue()
     {
         animator.SetBool("isOpen", false);
+        activeDialogue = false;
     }
 
+    
 }
