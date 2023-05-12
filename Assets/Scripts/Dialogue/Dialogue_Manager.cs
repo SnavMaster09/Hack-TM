@@ -13,7 +13,7 @@ public class Dialogue_Manager : MonoBehaviour
     public TextMeshProUGUI nameText;
 
     public Animator animator;
-
+    
 
     // Start is called before the first frame update
     void Start()
