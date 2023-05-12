@@ -10,7 +10,7 @@ public class Player_Movement : MonoBehaviour
 
     Vector2 movement;
 
-    public Animator animator;
+    //public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +23,7 @@ public class Player_Movement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        /*
         if (rb.velocity.y > 0)
         {
             animator.SetBool("runUp", true);
@@ -40,6 +41,7 @@ public class Player_Movement : MonoBehaviour
         {
             animator.SetBool("idle",true);
         }
+        */
 
     }
 
