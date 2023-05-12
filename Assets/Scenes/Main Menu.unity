@@ -805,7 +805,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2028679419}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ExitApp, Assembly-CSharp
         m_MethodName: ExitNow
         m_Mode: 1
@@ -1202,6 +1202,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2028679417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6a6eb9cab4103b428c599e6e710b78a, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c6c0a6ee916e7847b5f76fbc5ea919f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
