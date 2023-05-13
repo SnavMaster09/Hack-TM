@@ -179,7 +179,7 @@ public class Minigame : MonoBehaviour
         }
 
         if (cnt == 5)
-            SceneManager.LoadScene("Park");
+            SceneManager.LoadScene("SkyScraper");
     }
 
     
