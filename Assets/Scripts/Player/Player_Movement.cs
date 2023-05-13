@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_Movement : MonoBehaviour
 {
@@ -15,7 +16,22 @@ public class Player_Movement : MonoBehaviour
 
     private void Start()
     {
-        gameObject.transform.position = playerLoc;
+        
+        // Create a temporary reference to the current scene.
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        // Retrieve the name of this scene.
+          string sceneName = currentScene.name;
+
+            if (sceneName == "City")
+            {
+                gameObject.transform.position = playerLoc;
+            }
+            else
+            {
+            gameObject.transform.position = Vector3.zero;
+            }
+            
     }
 
     //public Animator animator;
