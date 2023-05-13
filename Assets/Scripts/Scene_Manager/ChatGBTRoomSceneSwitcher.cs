@@ -10,6 +10,7 @@ public class ChatGBTRoomSceneSwitcher : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         touching = true;
+        Debug.Log(1);
     }
 
     private void Update()
