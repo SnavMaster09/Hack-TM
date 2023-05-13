@@ -641,9 +641,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pipe: {fileID: 5461450475605637047, guid: f8534c3dce2d24059a06afca298f6383, type: 3}
-  timer: 3
-  spawntimer: 3
-  off: 3
+  timer: 2
+  spawntimer: 2
+  off: 2
 --- !u!4 &1141816748
 Transform:
   m_ObjectHideFlags: 0

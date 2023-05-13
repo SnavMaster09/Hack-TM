@@ -27,4 +27,14 @@ public class Dialogue_Trigger : MonoBehaviour
     {
         hasFollowUp = true;
     }
+
+    public bool canFollowUp()
+    {
+        if (hasFollowUp == true)
+            return true;
+        else
+            return false;
+
+
+    }
 }

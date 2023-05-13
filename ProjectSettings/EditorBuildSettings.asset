@@ -39,6 +39,6 @@ EditorBuildSettings:
     path: Assets/Scenes/ServerRoomLabirinth.unity
     guid: fb9170b6445e6495cb33cf62009df5ed
   - enabled: 1
-    path: Assets/Paul Recycle/Scenes/FlappyBird.unity
+    path: Assets/Scenes/FlappyBird.unity
     guid: c83a2360746b544269379ca560fcba13
   m_configObjects: {}

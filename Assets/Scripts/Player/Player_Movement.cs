@@ -8,7 +8,7 @@ public class Player_Movement : MonoBehaviour
 
     float moveSpeed = 3f;
 
-    
+    public static bool ok = false;
 
     Vector2 movement;
 
@@ -41,10 +41,18 @@ public class Player_Movement : MonoBehaviour
             animator.SetBool("idle",true);
         }
         */
-        if (Input.GetKey(KeyCode.I))
-            trig.enableFollowUp();
+   
 
 
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Gamer")
+            ok = true;
+        else
+            ok = false;
+        
     }
 
     private void FixedUpdate()
