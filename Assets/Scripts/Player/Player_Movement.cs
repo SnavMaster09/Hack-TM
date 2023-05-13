@@ -28,10 +28,7 @@ public class Player_Movement : MonoBehaviour
             {
                 gameObject.transform.position = playerLoc;
             }
-            else
-            {
-            gameObject.transform.position = Vector3.zero;
-            }
+            
             
     }
 
