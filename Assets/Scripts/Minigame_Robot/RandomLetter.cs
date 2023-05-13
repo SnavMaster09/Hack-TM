@@ -11,7 +11,7 @@ public class RandomLetter : MonoBehaviour
     public TMP_Text My_Text;
 
     void Start() {
-        InvokeRepeating("Letter", 0, 3);
+        InvokeRepeating("Letter", 0, 1);
     }
     public void Letter()
         {

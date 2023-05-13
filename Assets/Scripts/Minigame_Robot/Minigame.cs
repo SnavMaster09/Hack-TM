@@ -12,7 +12,7 @@ public class Minigame : MonoBehaviour
     private  bool Pressed;
     void Start()
     {
-        InvokeRepeating("Repuri", 0.1f, 3);
+        InvokeRepeating("Repuri", 0.1f,1f);
     }
     void Repuri()
     {
