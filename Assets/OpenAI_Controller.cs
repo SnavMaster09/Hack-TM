@@ -10,7 +10,7 @@ using UnityEngine.UI;
 
 public class OpenAI_Controller : MonoBehaviour
 {
-    public TMP_Text textField;
+    public TMP_Text textField;//bun
     public TMP_InputField inputField;
     public Button okButton;
 
@@ -21,7 +21,8 @@ public class OpenAI_Controller : MonoBehaviour
     void Start()
     {
         // This line gets your API key (and could be slightly different on Mac/Linux)
-        api = new OpenAIAPI(Environment.GetEnvironmentVariable("OPENAI_API_KEY", EnvironmentVariableTarget.User));
+        api = new OpenAIAPI("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");
+        //api = new OpenAIAPI(Environment.GetEnvironmentVariable("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", EnvironmentVariableTarget.User));
         StartConversation();
         okButton.onClick.AddListener(() => GetResponse());
     }
