@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7832839333746602830}
   - component: {fileID: 7832839333746602829}
   - component: {fileID: 7832839333746602826}
-  - component: {fileID: 7832839333746602824}
+  - component: {fileID: 2369907500897329333}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7832839333746602824
+--- !u!114 &2369907500897329333
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,26 +125,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: NPC 1
-    sentences:
-    - Hi!
-    - Im NPC 1
-    - Bye Bye!
---- !u!114 &7832839333746602825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7832839333746602828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5fbe0824903242f0b54aa4b605b6108, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: Npc1
-    sentences:
-    - Convo...
-    - Talking...
-    - End...
+    name: 
+    sentences: []
