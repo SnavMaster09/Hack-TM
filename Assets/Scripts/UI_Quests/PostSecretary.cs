@@ -7,10 +7,10 @@ using TMPro;
 public class PostSecretary : MonoBehaviour
 {
     public TMP_Text My_Text;
-    private void OnCollisionEnter2D(Collider2D collision)
+
+
+    private void OnCollisionExit2D(Collision2D collision)
     {
-        
-        Debug.Log(1);
-        
+        My_Text.text = "Test";
     }
 }

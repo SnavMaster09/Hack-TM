@@ -609,6 +609,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+--- !u!1 &763942032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7832839333746602828, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+  m_PrefabInstance: {fileID: 763942031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &763942033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763942032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb30cfd7dc6fef4faa1e350de6de4ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  My_Text: {fileID: 0}
 --- !u!1 &890403717
 GameObject:
   m_ObjectHideFlags: 0
@@ -958,7 +976,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 974206209}
-  - component: {fileID: 974206208}
   m_Layer: 0
   m_Name: Scriptareala
   m_TagString: Untagged
@@ -966,19 +983,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &974206208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974206207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbb30cfd7dc6fef4faa1e350de6de4ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  My_Text: {fileID: 1573297933}
 --- !u!4 &974206209
 Transform:
   m_ObjectHideFlags: 0
