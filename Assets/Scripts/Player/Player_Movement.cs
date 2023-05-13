@@ -8,17 +8,14 @@ public class Player_Movement : MonoBehaviour
 
     float moveSpeed = 3f;
 
-    public Dialogue_Trigger trig;
+    
 
     Vector2 movement;
 
     //public Animator animator;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        trig = GameObject.FindGameObjectWithTag("Gamer").GetComponent<Dialogue_Trigger>();
-    }
+    
 
     // Update is called once per frame
     void Update()

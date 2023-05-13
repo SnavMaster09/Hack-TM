@@ -20,6 +20,8 @@ public class birdscript : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space)==true )
         rb.velocity = Vector2.up * flapStrenght;
+        if (transform.position.y < -8 || transform.position.y > 8)
+            logc.gameover();
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

@@ -20,6 +20,11 @@ public class logic : MonoBehaviour
     }
     public void gameover()
     {
-        gameoverscreen.SetActive(true);
+        //gameoverscreen.SetActive(true);
+        if (score >= 6)
+            SceneManager.LoadScene("Game Caffe After");
+        else
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

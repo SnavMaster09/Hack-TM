@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Starting Area.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ChatGBTRoom.unity
+    guid: 2e098596b02e64a9792fe617c292ed44
+  - enabled: 1
+    path: Assets/Scenes/Game Caffe After.unity
+    guid: e524efa4f42fd4a4cb8e5d00bb1d58ba
+  - enabled: 1
+    path: Assets/Scenes/Game Caffe.unity
+    guid: d72286047c5c2420593b2999e1598615
+  - enabled: 1
+    path: Assets/Scenes/Robot-MiniGame.unity
+    guid: 19f7216acfe984039aa448d8ab0d6080
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
@@ -26,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ServerRoomLabirinth.unity
     guid: fb9170b6445e6495cb33cf62009df5ed
+  - enabled: 1
+    path: Assets/Paul Recycle/Scenes/FlappyBird.unity
+    guid: c83a2360746b544269379ca560fcba13
   m_configObjects: {}
