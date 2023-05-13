@@ -9,6 +9,6 @@ public class StartGame : MonoBehaviour
 
     public void StartTheGame()
     {
-        SceneManager.LoadScene("Starting Area");
+        SceneManager.LoadScene("Classroom");
     }
 }
