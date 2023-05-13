@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Player_Movement : MonoBehaviour
 {
     public Rigidbody2D rb;
+    public Animator animator;
 
     float moveSpeed = 3f;
 
@@ -44,11 +45,13 @@ public class Player_Movement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        /*
+        
         if (rb.velocity.y > 0)
         {
             animator.SetBool("runUp", true);
             animator.SetBool("runDown", false);
+            animator.SetBool("runRight", false);
+            animator.SetBool("runLeft", false);
             animator.SetBool("idle", false);
 
         }
@@ -56,13 +59,31 @@ public class Player_Movement : MonoBehaviour
         {
             animator.SetBool("runDown", true);
             animator.SetBool("runUp", false);
+            animator.SetBool("runRight", false);
+            animator.SetBool("runLeft", false);
+            animator.SetBool("idle", false);
+        }
+        else if(rb.velocity.x > 0)
+        {
+            animator.SetBool("runRight", true);
+            animator.SetBool("runLeft", false);
+            animator.SetBool("runDown", false);
+            animator.SetBool("runUp", false);
+            animator.SetBool("idle", false);
+        }
+        else if(rb.velocity.x < 0)
+        {
+            animator.SetBool("runRight", false);
+            animator.SetBool("runLeft", true);
+            animator.SetBool("runDown", false);
+            animator.SetBool("runUp", false);
             animator.SetBool("idle", false);
         }
         else
         {
             animator.SetBool("idle",true);
         }
-        */
+        
    
 
 
