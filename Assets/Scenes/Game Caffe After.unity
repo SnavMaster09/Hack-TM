@@ -448,11 +448,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Eyo kiddo
+      value: Ho ho, you manage to beat me..
       objectReference: {fileID: 0}
     - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: 'Before we do any talkin'' get me a cup o'' ''ofee. So now bugger off.
+      value: 'Now listen...
 
 '
       objectReference: {fileID: 0}
@@ -624,7 +624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: Here, I will give it to you for free because you look adorable
+      value: I'm sorry but for this one you will have to pay.
       objectReference: {fileID: 0}
     - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: dialogue.sentences1.Array.data[0]
