@@ -7,7 +7,7 @@ using TMPro;
 public class Dialogue_Manager : MonoBehaviour
 {
 
-    private  Queue<string> sentecens;
+    private Queue<string> sentecens;
 
     public bool special = false;
 
@@ -18,7 +18,7 @@ public class Dialogue_Manager : MonoBehaviour
     public TextMeshProUGUI nameText;
 
     public Animator animator;
-    
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,14 +28,32 @@ public class Dialogue_Manager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        
+
         nameText.text = dialogue.name;
 
         animator.SetBool("isOpen", true);
         activeDialogue = true;
 
         sentecens.Clear();
-        foreach(string sentence in dialogue.sentences)
+        foreach (string sentence in dialogue.sentences)
+        {
+            sentecens.Enqueue(sentence);
+        }
+
+        DisplayNextSentance();
+
+    }
+
+    public void StartFollowUpDialogue(Dialogue dialogue)
+    {
+
+        nameText.text = dialogue.name;
+
+        animator.SetBool("isOpen", true);
+        activeDialogue = true;
+
+        sentecens.Clear();
+        foreach (string sentence in dialogue.sentences1)
         {
             sentecens.Enqueue(sentence);
         }
@@ -46,14 +64,25 @@ public class Dialogue_Manager : MonoBehaviour
 
     public void DisplayNextSentance()
     {
-        if(sentecens.Count == 0)
+        if (sentecens.Count == 0)
         {
             EndDialogue();
             return;
         }
         string sentence = sentecens.Dequeue();
-        dialogueText.text = sentence;
-        
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(sentence));
+
+    }
+
+    IEnumerator TypeSentence(string sentence)
+    {
+        dialogueText.text = "";
+        foreach (char letter in sentence.ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(0.025f);
+        }
     }
 
     void EndDialogue()
@@ -62,5 +91,5 @@ public class Dialogue_Manager : MonoBehaviour
         activeDialogue = false;
     }
 
-    
+
 }

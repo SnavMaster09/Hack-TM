@@ -8,6 +8,8 @@ public class Player_Movement : MonoBehaviour
 
     float moveSpeed = 3f;
 
+    public Dialogue_Trigger trig;
+
     Vector2 movement;
 
     //public Animator animator;
@@ -15,7 +17,7 @@ public class Player_Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    
+        trig = GameObject.FindGameObjectWithTag("Gamer").GetComponent<Dialogue_Trigger>();
     }
 
     // Update is called once per frame
@@ -42,6 +44,9 @@ public class Player_Movement : MonoBehaviour
             animator.SetBool("idle",true);
         }
         */
+        if (Input.GetKey(KeyCode.I))
+            trig.enableFollowUp();
+
 
     }
 
@@ -49,6 +54,6 @@ public class Player_Movement : MonoBehaviour
     {
         Vector2 direction = movement.normalized;
         rb.velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
-        
+
     }
 }
