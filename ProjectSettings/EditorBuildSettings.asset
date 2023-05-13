@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Starting Area.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/ChatGBTRoom.unity
-    guid: 577e12df0b7ba438a81018dcd2dda28d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Classroom.unity
     guid: 26ea11926406f49899c8e03e4d05836a
