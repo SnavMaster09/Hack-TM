@@ -16,6 +16,7 @@ namespace OpenAI_API
 	/// </summary>
 	public abstract class EndpointBase
 	{
+
 		private const string UserAgent = "okgodoit/dotnet_openai_api";
 
 		/// <summary>
@@ -47,7 +48,7 @@ namespace OpenAI_API
 				return string.Format(_Api.ApiUrlFormat, _Api.ApiVersion, Endpoint);
 			}
 		}
-
+		
 		/// <summary>
 		/// Gets an HTTPClient with the appropriate authorization and other headers set
 		/// </summary>
