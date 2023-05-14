@@ -270,16 +270,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Hi!
+      value: Well, that is all for today.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: As homework...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: ' I want you to find the answer to the following question:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Why is IT important?
       objectReference: {fileID: 0}
     - target: {fileID: 7832839333746602828, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: m_Name
       value: Teacher
       objectReference: {fileID: 0}
+    - target: {fileID: 7832839333746602829, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 68ae031caebe74dd0bd0e3f729b1ac30, type: 3}
     - target: {fileID: 7832839333746602830, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -290,7 +306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7832839333746602830, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.9337726
+      value: -0.71
       objectReference: {fileID: 0}
     - target: {fileID: 7832839333746602830, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3131,11 +3147,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5270525984620771042, guid: 4cd713972b06a48a28e3e394815f323d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.8304415
+      value: 4.13
       objectReference: {fileID: 0}
     - target: {fileID: 5270525984620771042, guid: 4cd713972b06a48a28e3e394815f323d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.9663706
+      value: -0.83
       objectReference: {fileID: 0}
     - target: {fileID: 5270525984620771042, guid: 4cd713972b06a48a28e3e394815f323d, type: 3}
       propertyPath: m_LocalPosition.z
