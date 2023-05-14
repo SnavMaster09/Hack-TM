@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Classroom.unity
-    guid: 26ea11926406f49899c8e03e4d05836a
-  - enabled: 1
     path: Assets/Scenes/Office.unity
     guid: 18794d7f0f4294271bd5a249f966e852
   - enabled: 1
@@ -25,13 +22,16 @@ EditorBuildSettings:
     guid: 2e098596b02e64a9792fe617c292ed44
   - enabled: 1
     path: Assets/Scenes/Game Caffe After.unity
-    guid: d68aa0819524a4749b0239a3752bb372
+    guid: e524efa4f42fd4a4cb8e5d00bb1d58ba
   - enabled: 1
     path: Assets/Scenes/Game Caffe.unity
     guid: d72286047c5c2420593b2999e1598615
   - enabled: 1
     path: Assets/Scenes/RobotMiniGame.unity
     guid: 19f7216acfe984039aa448d8ab0d6080
+  - enabled: 1
+    path: Assets/Scenes/Classroom.unity
+    guid: 26ea11926406f49899c8e03e4d05836a
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 589e5cdb7264b0140ba167bd9fd617c7
