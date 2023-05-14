@@ -12,11 +12,14 @@ public class Player_Movement : MonoBehaviour
 
     public static bool ok = false;
     public static Vector3 playerLoc;
+    public static bool started = false;
 
     Vector2 movement;
 
     private void Start()
     {
+
+        
         
         // Create a temporary reference to the current scene.
         Scene currentScene = SceneManager.GetActiveScene();
@@ -40,6 +43,9 @@ public class Player_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         

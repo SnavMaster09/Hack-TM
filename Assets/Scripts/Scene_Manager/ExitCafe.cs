@@ -7,11 +7,16 @@ public class ExitCafe : MonoBehaviour
 {
     public Vector3 exitPos;
 
+    public bool cafe;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            Player_Movement.playerLoc = exitPos;
+            if(cafe == true)
+            Player_Movement.playerLoc = new Vector3(2,-17.5f,0);
+            else
+            Player_Movement.playerLoc = new Vector3(17, 2, 0);
             SceneManager.LoadScene("City");
         }
     }
