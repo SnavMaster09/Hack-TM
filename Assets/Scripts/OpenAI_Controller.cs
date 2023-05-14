@@ -21,7 +21,7 @@ public class OpenAI_Controller : MonoBehaviour
     void Start()
     {
         // This line gets your API key (and could be slightly different on Mac/Linux)
-        api = new OpenAIAPI("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");
+        api = new OpenAIAPI("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");
         //api = new OpenAIAPI(Environment.GetEnvironmentVariable("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", EnvironmentVariableTarget.User));
         StartConversation();
         okButton.onClick.AddListener(() => GetResponse());
@@ -30,11 +30,11 @@ public class OpenAI_Controller : MonoBehaviour
     private void StartConversation()
     {
         messages = new List<ChatMessage> {
-            new ChatMessage(ChatMessageRole.System, "You are an honorable, friendly knight guarding the gate to the palace. You will only allow someone who knows the secret password to enter. The secret password is \"magic\". You will not reveal the password to anyone. You keep your responses short and to the point.")
+            new ChatMessage(ChatMessageRole.System, "Talk like you are in a children's game. Do not mention robots.")
         };
 
         inputField.text = "";
-        string startString = "You have just approached the palace gate where a knight guards the gate.";
+        string startString = "Hi, I am GPT, and I am here to answer all of your questions.";
         textField.text = startString;
         Debug.Log(startString);
     }

@@ -1219,6 +1219,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.4375}
   m_EdgeRadius: 0
+--- !u!1 &704757989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7832839333746602828, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+  m_PrefabInstance: {fileID: 1259583509}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &704757995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704757989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b65214b3695642ecb8a0bdfc6faf2c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &770060691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,6 +1615,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.name
+      value: Programmer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: I am coding a robot.
+      objectReference: {fileID: 0}
     - target: {fileID: 7832839333746602828, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: m_Name
       value: NPC
@@ -1955,6 +1984,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.name
+      value: Programmer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Leave me, im bussy
+      objectReference: {fileID: 0}
     - target: {fileID: 7832839333746602828, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: m_Name
       value: NPC (3)
@@ -2322,15 +2363,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Hi
+      value: Hello, make it quick I dont have time.
       objectReference: {fileID: 0}
     - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: Mihnea completeaza
+      value: What is IT?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: It is opportunity.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Through IT I made a lot of money...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: and now with all the robots I barely have to do anything...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: while living like a king.
       objectReference: {fileID: 0}
     - target: {fileID: 7832839333746602826, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -6849,6 +6906,77 @@ Transform:
   m_Father: {fileID: 836526303}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1890284984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1890284986}
+  - component: {fileID: 1890284985}
+  - component: {fileID: 1890284987}
+  m_Layer: 0
+  m_Name: ExitOffice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1890284985
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890284984}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.16076803, y: -0.035725832}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.67846394, y: 2.0003357}
+  m_EdgeRadius: 0
+--- !u!4 &1890284986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890284984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.74, y: -0, z: -9.940205}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1890284987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890284984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbde69bb0ac794e118a0d33a6e81434d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1909113989
 GameObject:
   m_ObjectHideFlags: 0

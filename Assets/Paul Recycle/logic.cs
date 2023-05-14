@@ -22,9 +22,12 @@ public class logic : MonoBehaviour
     {
         //gameoverscreen.SetActive(true);
         if (score >= 6)
+        {
+            ProgressionScript.phase = 3;
             SceneManager.LoadScene("Game Caffe After");
+        }
         else
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
