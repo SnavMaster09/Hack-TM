@@ -7,6 +7,7 @@ public class ExitGBT : MonoBehaviour
 {
     public void exitGB()
     {
+        ProgressionScript.phase = 2;
         SceneManager.LoadScene("City");
     }
 }
