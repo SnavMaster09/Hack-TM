@@ -1149,7 +1149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369907500897329333, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: dialogue.sentences1.Array.data[0]
-      value: COX
+      value: Can't give you another cup.
       objectReference: {fileID: 0}
     - target: {fileID: 7832839333746602828, guid: 9a4cbb695df45453eb4b18341d40eec4, type: 3}
       propertyPath: m_Name
