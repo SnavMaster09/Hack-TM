@@ -21,7 +21,7 @@ public class OpenAI_Controller : MonoBehaviour
     void Start()
     {
         // This line gets your API key (and could be slightly different on Mac/Linux)
-        api = new OpenAIAPI("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");
+        api = new OpenAIAPI("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");
         //api = new OpenAIAPI(Environment.GetEnvironmentVariable("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", EnvironmentVariableTarget.User));
         StartConversation();
         okButton.onClick.AddListener(() => GetResponse());
@@ -88,7 +88,7 @@ public class OpenAI_Controller : MonoBehaviour
         messages.Add(responseMessage);
 
         // Update the text field with the response
-        textField.text = string.Format("You: {0}\n\nGuard: {1}", userMessage.Content, responseMessage.Content);
+        textField.text = string.Format("You: {0}\n\nGPT: {1}", userMessage.Content, responseMessage.Content);
 
         // Re-enable the OK button
         okButton.enabled = true;
